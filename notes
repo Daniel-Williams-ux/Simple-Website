@@ -34,3 +34,56 @@ You should see Mark's face popping out. (Yes, at Replit we call this little guy 
 3. Add a description of the image using alt and add width and height.
 <img src="mark.png" alt="an image of mark" width="640" height="240">
 4. You have a working website already! Share it with others. Click the URL in the webview header and copy and share it with people.
+
+
+1. Create links with <a> tag, which stands for "anchor"
+
+<a href="https://replit.com">this is a link to the replit site</a>
+The most important stuff is the attribute href, it defines what link should this text take us.
+
+href = hypertext reference
+
+-- Amjad Masad, CEO man
+
+Challenge #1: Nesting Stuff
+Achieve something like this, only a part of line is link
+
+when you click that blue text it should take you to that web page
+
+Nest <a> inside a <p>
+
+<p>Here's my favorite <a href="https://en.wikipedia.org/wiki/Marrus_orthocanna">fish</a></p>
+Challenge #2: Image as Link
+Anything can be a link! Observe how we used <a> above to nest a piece of text inside, see if you can figure out how to make it so that clicking on an image takes you to a link.
+
+<a href="https://www.youtube.com/watch?v=TFwXbp9bLlY"><img src="mark.png"></a>
+can you tell if this is a link?
+
+History: First Webpage Ever
+Fun fact, we can already recreate the first web page ever with what we've learned.
+
+ou can safely say your HTML knowledge is on par with Sir Tim Berners-Lee when he created the World Wide Web.
+
+But really, we've already grasped the core of the internet: Links! It's just a giant web with information linking to other information.
+
+Challenge #3: A Simple Linktree Site
+A lot of people just use services like Linktree for their personal website, we already learned how to do this ourselves!
+
+Try make a simple site where it just lists some links to your works, your interests or your internet presence elsewhere.
+
+Challenge #4: Multiple Pages
+Now that we have the ability to link to other sites, try make a website with multiple pages that contains links to one another!
+
+Let's summarize:
+Create a link using <a> tag.
+
+The attribute href (hypertext reference) defines what link the text will send to. This is where you add the website link.
+
+Don't forget to add https:// when adding the website link.
+
+The code between > </a> is the text that will appear on your webpage.
+
+Turn an <img into a link by adding the <a href= tag at the start.
+
+Next, let's spice up your website with audio/video and different types of text.
+
