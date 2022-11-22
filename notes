@@ -24,3 +24,13 @@ Let's summarize
 <h1> is a first level heading that is used for big, bold text that you want to stand out (like a title) and <p> tags are used for paragraphs.
 The letter inside the tag often implies what the tag does (<b> for bold, <i> for italic). Read more about tags on the W3 schools doc.
 Almost all tags in HTML have opening and closing pairs: <<h1></h1>, <p></p>, <b></b>.
+
+1. Add this line to the end of your code:
+<img src="mark.png">
+You should see Mark's face popping out. (Yes, at Replit we call this little guy Mark)
+
+2. Remember, the words inside "" here must be the same name you gave to your file in the file tree.
+<img src="mark.png">
+3. Add a description of the image using alt and add width and height.
+<img src="mark.png" alt="an image of mark" width="640" height="240">
+4. You have a working website already! Share it with others. Click the URL in the webview header and copy and share it with people.
